@@ -128,19 +128,16 @@ a {
     color: rgba(55, 54, 54, 0.675);
 }
 
+.page-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
 
 .featured-projects {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-
-}
-
-.IWP-articles {
-    max-width: 1200px;
-    margin: 0 auto;
 
 }
 
