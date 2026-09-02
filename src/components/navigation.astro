@@ -8,6 +8,8 @@ const currentPath = Astro.url.pathname;
   <a href="/portfolio/about" class={currentPath === '/portfolio/about' ? 'active' : ''}>About</a>
 </nav>
 
+<p>DEBUG: {currentPath}</p>
+
 <style>
   nav {
     display: flex;
