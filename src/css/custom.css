@@ -136,7 +136,7 @@ a {
 
 .featured-projects {
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 
@@ -154,7 +154,7 @@ a {
 .IWP-articles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 3rem;
 
 }
 
