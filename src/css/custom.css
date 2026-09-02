@@ -136,9 +136,8 @@ a {
 
 .featured-projects {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     flex-wrap: wrap;
-
 }
 
 .project {
