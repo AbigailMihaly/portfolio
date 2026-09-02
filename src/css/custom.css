@@ -102,9 +102,10 @@ nav a {
 
 .bio-section {
     display: flex;
-    gap: 2 rem;
+    gap: 2rem;
     align-items: flex-start;
-    max-width: 800px;
+    max-width: 1000px;
+    margin 0 auto;
 }
 
 .bio {
