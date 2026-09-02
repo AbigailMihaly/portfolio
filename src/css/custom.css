@@ -157,4 +157,18 @@ a {
     text-align: center;
 }
 
+/* Hide scroll bar */
 
+html {
+    scrollbar-gutter: stable;
+}
+
+/* Hide scrollbar (still allow scrolling functionality) */
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;  /* IE/Edge */
+    scrollbar-width: none;     /* Firefox */
+}
