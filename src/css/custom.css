@@ -1,0 +1,160 @@
+html,
+body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #333333;
+
+}
+
+h1 {
+    font-family: 'Lekton', monospace;
+    color: black;
+    font-size: 35px;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px; /* Handwriting fonts display best slightly larger */
+    line-height: 1.7;
+    margin-bottom: 20px;
+    /* font-family: 'Sulphur Point', sans-serif; */
+	margin: 0 0 1em;
+	font-weight: normal;
+    color: rgba(55, 54, 54, 0.675);
+	font-size: 20px;
+}
+
+h3 {
+    font-family: 'Afacad Flux', sans-serif;
+    font-weight: 200;
+    color: rgba(45, 44, 44, 0.675);
+
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: rgba(45, 44, 44, 0.675);
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.006em;
+	margin: 0;
+    padding: 10px
+}
+
+header {
+    background-color: white;
+    font-family: 'Lekton', monospace;
+    font-size: 70px;
+    color: #7AA5E9;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* using for "journalist" subhead */
+
+.subhead {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: rgba(45, 44, 44, 0.675);
+    margin-top: -20px
+}
+
+footer {
+    background-color: white;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* for nav */
+
+nav {
+    background-color: white;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* for my ABOUT page */
+
+.bio-section {
+    display: flex;
+    gap: 2 rem;
+    align-items: flex-start;
+}
+
+.bio {
+    margin: 2rem 1rem;
+
+}
+
+.profile-photo {
+    width: 270px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin: 2rem
+
+}
+
+/* for my STORIES page */
+
+a {
+    text-decoration: underline;
+    color: rgba(55, 54, 54, 0.675);
+}
+
+
+.featured-projects {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    min-width: 300px;
+}
+
+.graphics {
+    display: flex;
+    gap: 1rem;
+    margin-top: .5rem;
+}
+
+.IWP-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+}
+
+.featured-projects h1 {
+    width: 100%;
+    text-align: center;
+}
+
+

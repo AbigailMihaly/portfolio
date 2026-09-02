@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Projects from '../components/featured-projects.astro';
+import Photos from '../components/featured-photos.astro';
+
+---
+
+<Layout title="Abigail Mihaly's Stories">
+<!-- Section 1: Featured projects -->
+ <section class="featured-projects">
+    <Projects />
+    <Photos />
+ </section>
+</Layout>
+
+<style>
+
+    section {
+    margin: 3rem 1rem;
+  }
+
+    @media (max-width: 700px) {
+    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+    .photo-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+</style>

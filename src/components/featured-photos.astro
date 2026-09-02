@@ -1,0 +1,27 @@
+<!-- Photo grid -->
+<h1>Photos</h1>
+<section class="photo-grid">
+    <img src="/New-Website-Featured-Photos/Photo-1.jpeg" alt="Photo 1" />
+    <img src="/New-Website-Featured-Photos/Photo-2.jpeg" alt="Photo 2" />
+    <img src="/New-Website-Featured-Photos/Photo-3.jpeg" alt="Photo 3" />
+    <img src="/New-Website-Featured-Photos/Photo-4.jpeg" alt="Photo 4" />
+    <img src="/New-Website-Featured-Photos/Photo-5.jpeg" alt="Photo 5" />
+    <img src="/New-Website-Featured-Photos/Photo-6.jpeg" alt="Photo 6" />
+</section>
+
+<style>
+
+    .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+    .photo-grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+</style>
