@@ -104,6 +104,7 @@ nav a {
     display: flex;
     gap: 2 rem;
     align-items: flex-start;
+    max-width: 800px;
 }
 
 .bio {
