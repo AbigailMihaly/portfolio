@@ -1,6 +1,11 @@
+---
+// Checking current page:
+const currentPath = Astro.url.pathname;
+---
+
 <nav>
-  <a href="/portfolio/work">Work</a>
-  <a href="/portfolio/about">About</a>
+  <a href="/portfolio/work" class={currentPath === '/portfolio/work' ? 'active' : ''}>Stories</a>
+  <a href="/portfolio/about" class={currentPath === '/portfolio/about' ? 'active' : ''}>About</a>
 </nav>
 
 <style>
@@ -22,4 +27,8 @@
         color: black;
     }
   
+  nav a.active {
+    text-decoration: underline;
+  }
 </style>
+
