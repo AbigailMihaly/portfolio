@@ -133,6 +133,15 @@ a {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.IWP-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
 .project {
