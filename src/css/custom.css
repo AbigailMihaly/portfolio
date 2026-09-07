@@ -190,3 +190,28 @@ html {
     -ms-overflow-style: none;  /* IE/Edge */
     scrollbar-width: none;     /* Firefox */
 }
+
+@media (max-width: 768px) {
+    .site-header {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .featured-projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .IWP-articles {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
