@@ -202,6 +202,11 @@ html {
         width: 100%;
     }
 
+    .bio-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .featured-projects {
         flex-direction: column;
         align-items: center;
