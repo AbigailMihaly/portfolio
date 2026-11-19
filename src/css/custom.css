@@ -151,6 +151,7 @@ a {
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
+    flex: 0 0 100%;
 }
 
 .project {
@@ -213,6 +214,7 @@ html {
         align-items: center;
     }
 
+
     .IWP-articles {
         grid-template-columns: 1fr;
     }
@@ -221,3 +223,75 @@ html {
         grid-template-columns: 1fr;
     }
 }
+
+/* for graphics section */
+
+  .graphics-section {
+    flex: 1 1 100%;       /* take a full row in the flex parent */
+    max-width: 1200px;    /* match .page-wrapper */
+    margin: 3rem auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+/* 
+  .graphic img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+  }
+
+  .graphic h3 {
+    margin-top: 1rem;
+  }
+
+  .graphic p {
+    padding: 0;
+  }
+ */
+  .featured-graphics {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1rem;
+  }
+
+  .graphics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    width: 100%;
+  }
+
+  /* .graphics-group {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem 3rem;
+    width: 100%;
+    box-sizing: border-box;
+  } */
+
+  .graphics-group {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 3rem;
+}
+
+  .graphic {
+    min-width: 0;
+  }
+
+  .shared-description {
+    grid-column: span 2;
+    padding: 0;
+  }
+
+  @media (max-width: 700px) {
+    .graphics-grid,
+    .graphics-group {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
