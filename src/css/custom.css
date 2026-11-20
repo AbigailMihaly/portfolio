@@ -234,22 +234,6 @@ html {
     box-sizing: border-box;
   }
 
-/* 
-  .graphic img {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    display: block;
-  }
-
-  .graphic h3 {
-    margin-top: 1rem;
-  }
-
-  .graphic p {
-    padding: 0;
-  }
- */
   .featured-graphics {
     width: 100%;
     box-sizing: border-box;
@@ -262,15 +246,6 @@ html {
     gap: 3rem;
     width: 100%;
   }
-
-  /* .graphics-group {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem 3rem;
-    width: 100%;
-    box-sizing: border-box;
-  } */
 
   .graphics-group {
   grid-column: span 2;
